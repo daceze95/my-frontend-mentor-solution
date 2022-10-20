@@ -1,0 +1,115 @@
+.container{
+    display: flex;
+    justify-content:space-around;
+    /* align-items: center; */
+    /* width: 900px; */
+    margin: 15% 20% 15%;
+    box-sizing: border-box;
+    
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    /* margin: 20px; */
+    padding: 50px;
+    font-family: 
+'Big Shoulders Display', sans-serif, cursive;
+    font-weight: 700;
+    
+}
+
+.orange {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0px 0px 10px;
+}
+
+.blueGreen {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.armyGreen {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 10px 10px 0px;
+}
+
+/* .orange, .armyGreen{
+    border-radius: 5px;
+} */
+
+.sameColor{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 80px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    /* line-height: 5px; */
+}
+
+h1{
+    color: hsl(0, 0%, 95%);
+    /* font-weight: 400; */
+}
+
+.gen{
+    border-radius: 25px;
+    /* border: 1em solid hsl(0, 0%, 95%); */
+    background-color: hsl(0, 0%, 95%);
+    width: max-content;
+    padding: 10px 15px;
+    letter-spacing: 0.15em;
+    
+}
+
+div.gen:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    color: hsl(0, 0%, 95%);
+    border: 0.2em double hsl(0, 0%, 95%);
+    transition: 0.3s;
+}
+
+.orng {
+  color: hsl(31, 77%, 52%);
+}
+.bgrn {
+    color: hsl(184, 100%, 22%);
+}
+.agrn {
+  color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+@media screen and (max-width: 500px){
+    .container{
+        flex-direction: column;
+        margin: 5% 10% 5%;
+    }
+
+    .orange {
+        /* background-color: hsl(31, 77%, 52%); */
+        border-radius: 10px 10px 0px 0px;
+      }
+      
+      .armyGreen {
+        /* background-color: hsl(179, 100%, 13%); */
+        border-radius: 0px 0px 10px 10px;
+      }
+
+    .sameColor{
+        /* color: hsla(0, 0%, 100%, 0.75); */
+        margin-bottom: 50px;
+    }
+
+    .gen{
+        letter-spacing: 0.1em;;
+    }
+}
