@@ -29,7 +29,7 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-![Design preview for the 3-column preview card component coding challenge solution](./design/3-column-card-solution.png)
+![Design preview for the 3-column preview card component coding challenge solution](./design/solution_screenshot.png)
 ### Links
 
 ## My process
