@@ -1,9 +1,16 @@
+.heading{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color:darkcyan;
+  /* align-items: center; */
+}
 .container{
     display: flex;
     justify-content:space-around;
     /* align-items: center; */
     /* width: 900px; */
-    margin: 15% 20% 15%;
+    margin: 5% 20% 8%;
     box-sizing: border-box;
     
     
@@ -62,21 +69,30 @@ h1{
     
 }
 
+.gen a {
+  text-decoration: none;
+}
+
 div.gen:hover {
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0);
-    color: hsl(0, 0%, 95%);
+    /* color: hsl(0, 0%, 95%); */
     border: 0.2em double hsl(0, 0%, 95%);
     transition: 0.3s;
 }
 
-.orng {
+.gen:hover a{
+  color: hsl(0, 0%, 95%);
+}
+
+.orng, .orng a{
   color: hsl(31, 77%, 52%);
 }
-.bgrn {
+
+.bgrn, .bgrn a{
     color: hsl(184, 100%, 22%);
 }
-.agrn {
+.agrn, .agrn a {
   color: hsl(179, 100%, 13%);
 }
 
