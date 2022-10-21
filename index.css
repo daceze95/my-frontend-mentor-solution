@@ -3,6 +3,7 @@
   flex-wrap: wrap;
   justify-content: center;
   color:darkcyan;
+  margin: auto 5px;
   /* align-items: center; */
 }
 .container{
