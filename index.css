@@ -1,3 +1,6 @@
+/* *{
+  border: 1px solid blue;
+} */
 .heading{
   display: flex;
   flex-wrap: wrap;
@@ -15,7 +18,6 @@
     /* box-shadow:  0px 0px 35px 1px gray; */
     box-sizing: border-box;
     border-radius: 10px;
-    
     
 }
 .card{
@@ -99,6 +101,36 @@ div.gen:hover {
   color: hsl(179, 100%, 13%);
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  /* align-content: center; */
+  justify-items: center;
+  align-content:space-between;
+}
+
+.download{
+  background-color: rgb(14, 185, 14);
+  width: max-content;
+  box-sizing: border-box;
+  color: white;
+  /* display: flex; */
+  width: max-content;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  border-radius: 15px;
+  margin: 10px auto;
+
+}
+
+.download a{
+  border-color: blue;
+  text-decoration: none;
+  color: white;
+  padding: 15px 10px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -137,9 +169,6 @@ div.gen:hover {
 
 @media screen and (min-width: 1070px){
   .container{
-      /* flex-direction: column;
-      margin: 5% 10% 5%;
-      box-shadow: none; */
       box-shadow:  0px 0px 35px 1px gray;
   }
 }
